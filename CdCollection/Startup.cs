@@ -52,7 +52,7 @@ namespace CdCollection
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Artist}/{action=Index}/{id?}");
+                    pattern: "{controller=Cd}/{action=Index}/{id?}");
             });
         }
     }
